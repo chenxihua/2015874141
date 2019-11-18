@@ -1,0 +1,212 @@
+@charset "utf-8";
+/* CSS Document */
+
+a:link {
+	color: #000000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #000000;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+p{
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+footer{
+	height:50px;
+	background:rgba(0,255,0,0.5);
+	font-size:25px;
+	width:100%;
+	line-height:50px;
+	position:relative;
+	display:block;
+}
+.header{
+	background-color:rgba(222,222,222,0.05);
+	width:100%;
+
+	position:relative;
+	font-size:27px;
+	height:80px;
+	line-height:50px;
+	text-align:center;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+
+#travel_tang_section1{
+	font-size:25px;
+	width:100%;
+	height:auto;
+}
+.travel_tang_div1{
+	width:60%;
+	float:left;
+	height:400px;
+}
+.travel_tang_div2{
+	width:40%;
+	float:left;
+	height:400px;
+}
+.travel_tang_div1 img{
+	height:400px;
+	float:right;
+}
+.travel_tang_section2{
+	background:#FFF;
+	margin-top:20px;
+}
+.travel_tang_section2 img{
+	width:300px;
+	height:200px;
+	float:left;
+	margin-left:40px;
+	margin-right:40px;
+}
+.travel_tang_section2 div{
+	height:210px;
+	background:#FFF;
+	border-bottom:1px;
+	border-bottom-color:rgba(0,255,0,0.5);
+	border-bottom-style:solid;
+	margin-top:10px;
+}
+.travel_tang_section2 p{
+	font-size:20px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+.travel_tang_section2 input{
+	font-size:20px;
+	float:right;
+}
+
+.aaa {
+	width:100%;
+	height:auto;
+	background-color:rgba(0,255,0,0.5);
+}
+.aaaa {
+	background-color:#FFF;
+	width:100px;
+	margin-left:20px;
+	font-size:25px;
+	text-align:center;
+}
+.div5{
+	height:auto;
+	width:100%;
+	font-size:25px;
+	color:#000;
+	text-align:center;
+}
+.div5 a{
+	color:#000;
+}
+.mdd_silde .number {
+	background-color:#ffaa39; color:#fff; font-size:38px; height:50px; line-height:50px; display:block; text-align:center; overflow:hidden; position:absolute; top:0; left:0;
+}
+.mdd_silde .cffaa {
+	background-color:#099fde;
+}
+
+
+
+#nav {
+	BACKGROUND: url(images/loadsmall.gif) #000 no-repeat 330px 100px; OVERFLOW: hidden; WIDTH: 760px; POSITION: relative; HEIGHT: 240px
+}
+#nav UL {
+	Z-INDEX: 999; LEFT: 3px; BOTTOM: 0px; POSITION: absolute; TEXT-ALIGN: left
+}
+#nav UL LI {
+	DISPLAY: block; FONT-WEIGHT: 900; FONT-SIZE: 12px; FLOAT: left; WIDTH: 140px; COLOR: #aaa; FONT-FAMILY: Arial; POSITION: relative; HEIGHT: 50px
+}
+#nav LI DIV {
+	MARGIN-TOP: 5px; DISPLAY: none; PADDING-LEFT: 10px; MARGIN-LEFT: 70px
+}
+#nav LI IMG {
+	BORDER-RIGHT: #fff 1px solid; BORDER-TOP: #fff 1px solid; FILTER: alpha(opacity=60); LEFT: 10px; FLOAT: left; BORDER-LEFT: #fff 1px solid; WIDTH: 52px; CURSOR: pointer; MARGIN-RIGHT: 4px; BORDER-BOTTOM: #fff 1px solid; POSITION: absolute; TOP: 5px; HEIGHT: 35px; moz-opacity: 0.6
+}
+#frontText {
+	FONT-WEIGHT: 900; FONT-SIZE: 30px; Z-INDEX: 999; LEFT: 20px; WIDTH: 100%; COLOR: #fff; FONT-FAMILY: Verdana; POSITION: absolute; TOP: 20px
+}
+#frontTextBack {
+	FONT-WEIGHT: 900; FONT-SIZE: 30px; LEFT: 22px; WIDTH: 100%; COLOR: #000; FONT-FAMILY: Verdana; POSITION: absolute; TOP: 22px
+}
+#frontTextSub {
+	FONT-SIZE: 13px; LEFT: 25px; WIDTH: 100%; COLOR: #fff; FONT-FAMILY: Verdana; POSITION: absolute; TOP: 60px
+}
+#BG {
+	BORDER-TOP: #999 1px solid; BACKGROUND: #000; FILTER: alpha(opacity=60); WIDTH: 100%; BOTTOM: 0px; POSITION: absolute; HEIGHT: 50px; TEXT-ALIGN: right; moz-opacity: 0.6
+}
+#mask {
+	Z-INDEX: 990; BACKGROUND: url(mask.gif); LEFT: 0px; WIDTH: 100%; POSITION: absolute; TOP: 0px; HEIGHT: 100%
+}
+#back {
+	TEXT-ALIGN: center
+}
+.gray {
+	FILTER: Gray()
+}
+
+
+
+
+
+@media screen and (max-width:900px) and (min-width:600px) {
+.travel_tang_div1{
+	width:100%;
+	height:400px;
+}
+.travel_tang_div1 img{
+	width:100%;
+}
+.travel_tang_div2{
+	width:100%;
+	height:auto;
+}
+}
+
+@media screen and (max-width:600px) {
+	.travel_tang_div1{
+	width:100%;
+	height:400px;
+}
+.travel_tang_div1 img{
+	width:100%;
+}
+.travel_tang_div2{
+	width:100%;
+	height:auto;
+}
+.travel_tang_section2{
+	background:#FFF;
+	margin-top:20px;
+}
+.travel_tang_section2 img{
+	width:100%;
+	height:300px;
+	margin-left:0px;
+	margin-right:0px;
+}
+.travel_tang_section2 div{
+	height:450px;
+}
+.travel_tang_section2 input{
+	font-size:20px;
+	float:none;
+	margin-top:10px;
+}
+
+#demo {
+	width:100%; height:200px; margin:auto; overflow:hidden;
+}
+
+
+}

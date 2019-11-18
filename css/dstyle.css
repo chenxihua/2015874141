@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: 'Cabin', sans-serif !important;
+	background-color:rgba(0,0,0,0.3);
+}
+/*-- main --*/
+.main{
+	width: 35%;
+    margin: 8em auto 0;
+    padding: 0em 4em 5em;
+}
+.main h1{
+	color: #7e8fad;
+    text-align: center;
+    font-size: 2.5em;
+    margin: 0 0 1.5em;
+}
+.main input[type="text"],.main input[type="password"]{
+	outline: none;
+    border: 1px solid #FFF;
+    background:rgba(0,0,255,0.3);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    padding: 15px 10px;
+    width: 96%;
+    font-size: 1.3em;
+    color: #000;
+    text-align: center;
+    font-family: 'Syncopate', sans-serif;
+}
+.main input[type="password"]{
+	margin:1.5em 0;
+}
+.main input[type="submit"]{
+	outline:none;
+	border:1px solid #DBA9C8;
+	background:rgba(0,255,0,0.75);
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-o-border-radius:5px;
+	-ms-border-radius:5px;
+	padding:15px 10px;
+	width:100%;
+	color:#000;
+	font-size:1.5em;
+	font-family: 'Syncopate', sans-serif;
+	cursor:pointer;
+}
+.main input[type="submit"]:hover{
+	background:rgba(0,255,0,0.4);
+	color:#000;
+	border: 1px solid #FFF;
+}
+.footer{
+	text-align:center;
+	padding:2em 0 0;
+}
+.footer p{
+	font-size:1em;
+	color:#000;
+	margin:0;
+}
+.footer p a{
+	color:#fff;
+}
+.footer p a:hover{
+	color:#B47C9F;
+}
+
+@media (max-width:600px){
+	.main {
+		padding: 0;
+		width: 90%;
+		margin: 2em auto 0;
+	}
+	.main h1 {
+		font-size: 1.7em;
+	}
+	.main input[type="text"], .main input[type="password"] {
+		padding: 10px;
+		font-size: 13px;
+		width: 90%;
+	}
+	.main input[type="submit"] {
+		font-size: 1em;
+		padding: 10px;
+		width:93.5%;
+	}
+	.footer p {
+		width: 90%;
+		font-size: 15px;
+	}
+}
